@@ -4,4 +4,7 @@ export const theme = {
   prColor: "#222", //Color for Paragraphs and sections background
   mainFont: "'Roboto', sans-serif",
   titleFont: "'Ubuntu', sans-serif",
+  smallScreen: "320px",
+  middleScreen: "1024px",
+  largeScreen: "1440px",
 };
