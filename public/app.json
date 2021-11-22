@@ -9,7 +9,10 @@
     { "image": "/images/slide/math.jpg" },
     { "image": "/images/slide/quantum-physics.jpg" },
     { "image": "/images/slide/solvay.jpg" },
-    { "image": "/images/slide/zewail.jpg" }
+    { "image": "/images/slide/zewail.jpg" },
+    { "image": "/images/slide/jan.jpg" },
+    { "image": "/images/slide/linus.jpg" },
+    { "image": "/images/slide/bamdad.jpg" }
   ],
   "about": {
     "title": "ABOUT US",
