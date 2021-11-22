@@ -1,0 +1,143 @@
+{
+  "navbar": {
+    "logo": "Arab Physical Society",
+    "titles": ["home", "about", "services", "key technologies", "contact"]
+  },
+  "slider": [
+    { "image": "/images/slide/darkmatter.jpg" },
+    { "image": "/images/slide/edward.jpg" },
+    { "image": "/images/slide/math.jpg" },
+    { "image": "/images/slide/quantum-physics.jpg" },
+    { "image": "/images/slide/solvay.jpg" },
+    { "image": "/images/slide/zewail.jpg" }
+  ],
+  "about": {
+    "title": "ABOUT US",
+    "description": "The Arab Physical Society (APS) is an NGO non-profit membership organization that aims to spread and promote physics knowledge and its advancement, improve scientific education, research and human capacity building in the Arab world. Arab world includes all countries having Arabic as an official language. ASP fosters diversity to ensure that everyone has the same opportunities, regardless of gender, ethnicity, religion and culture.\n APS consists of a group of professional Arab researchers in the field of Fundamental Physics and applications who aim to promote physics knowledge and research in the Arab World.\n The APS has no limited duration. The ordinary general assembly shall convene at least once a year within three months of the end of the fiscal year whenever necessary.",
+    "sections": [
+      {
+        "id": 1,
+        "image": "/images/v1.jpg",
+        "title": "Mission",
+        "description": "»To promote excellence and creativity in the field of physics for the benefit of the Arab region and humanity, it.\n » Encourages scientific and research collaboration among researchers and students in the Arab region.\n »Organizes scientific and educational activities. \n »Joins the physical societies and relevant international scientific institutions to reduce the knowledge gap in physics between the Arab world and developed countries.\n »preads physics education and knowledge through conferences, seminars, workshops, summer and winter schools in the fields of physics; in addition to delivering specialized and public lectures. \n »Establishes peer-review journal in fundamental physics and applications.\n »Promotes interactions among individuals, institutions and organizations with an interest in physics, especially among members of the APS.\n »Addresses the ethics in science topic."
+      },
+      {
+        "id": 2,
+        "image": "/images/v2.jpg",
+        "title": "Mission",
+        "description": "»To promote research, teaching and outreach in physics.\n+ »To transmit, to society and institutions alike, the importance of physics in enhancing citizens’ knowledge, and the country's economy and social progress.\n »To be an Arabic reference in the topics related to the physical sciences and technologies.\n »To be the institutional advisory body for all matters concerning physics in the Arab region to the corresponding authorities.\n »To contribute to scientific and technological education in society through the promotion of activities designed to strengthen the dissemination and outreach of physics, including the National and International Physics Olympiads.\n »To evaluate and work closely with different scientific disciplines, especially with the disciplines discussing issues related to physics.\n »To support postgraduate studies of the students in the Arab world, and to provide them with joint supervision among Arab physicists.\n »To highlight the importance of theoretical and experimental physics and its impact on the state economy and social progress.\n »To promote cooperation in the field of physics education and raise awareness of its latest research by organizing an annual conference on physics, joint seminars and lectures.\n»To participate in forming scientific committees in the field of physics at the Arab world level, and to join the international scientific institutions and committees as scientific representatives.\n »To award prizes and recognitions to distinguished physicists."
+      }
+    ]
+  },
+  "home": {
+    "titleOne": "Get You Application Developed On Time & On Budget.",
+    "titleTwo": "Guaranteed",
+    "paragraph": "Award-winning SAAS, web and mobile from heroes like you.",
+    "start": "Get Started",
+    "background": "/image/1.jpg"
+  },
+  "feature": [
+    {
+      "title": "Hybris Development",
+      "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
+    },
+    {
+      "title": "Liferay Development",
+      "description": "Due to the flexibility of development platform our Liferay developers can customize a portal meeting your specific requirements both changing existed functionality and creating new solutions on its basis."
+    },
+    {
+      "title": "Mobile Development",
+      "description": "Mobile Development is one of the core services provided by Digital Gate"
+    }
+  ],
+
+  "services": {
+    "title": "SERVICES",
+    "description": "The speed of change is throwing traditional business methods into question and disrupting the relevance of entire industries.",
+    "background": "#fff",
+    "details": [
+      {
+        "icon": "ion-ios-analytics-outline",
+        "title": "Digital Services",
+        "description": "Harness the energy of the digital age with speed and confidence. From vision to reality we help you put digital at the core for sustainable profitable growth."
+      },
+      {
+        "icon": "ion-ios-barcode-outline",
+        "title": "Marketing & Advertising",
+        "description": "Marketers use Digital Gate to get tremendous insights all through the customer journey."
+      },
+      {
+        "icon": "ion-ios-people-outline",
+        "title": "Human Resources",
+        "description": "Digital Gate enhances the efforts of HR managers for strong employee engagement."
+      }
+    ]
+  },
+  "keytechnologies": {
+    "title": "keytechnologies",
+    "technologies": [
+      {
+        "tech": "SAP COMMERCE CLOUD (HYBRIS), SAP MARKETING CLOUD",
+        "prog": 100,
+        "color": "#28a745"
+      },
+      {
+        "tech": "LIFERAY",
+        "prog": 100,
+        "color": "#007bff"
+      },
+      {
+        "tech": "MICROSERVICES IMPLEMENTAITON",
+        "prog": 100,
+        "color": "#ffc107"
+      },
+      {
+        "tech": "NETWORKING",
+        "prog": 100,
+        "color": "#dc3545"
+      }
+    ]
+  },
+  "facts": {
+    "title": "FACTS & FIGURES",
+    "background": "/image/3.png",
+    "counters": [
+      { "number": 27, "title": "Clients" },
+      { "number": 34, "title": "Clients" },
+      { "number": 2000, "title": "Clients" },
+      { "number": 18, "title": "Clients" }
+    ]
+  },
+  "contactUs": {
+    "title": "contact us",
+    "description": "Have an upcoming project?",
+    "background": "#f7f7f7",
+    "contact": [
+      {
+        "icon": "ion-ios-location-outline",
+        "title": "ADDRESS",
+        "description": "Rabat Mahaj Hay Ryad Centre,5th floor 10100 RABAT - Maroc."
+      },
+      {
+        "icon": "ion-ios-telephone-outline",
+        "title": "PHONE NUMBER",
+        "description": "+212 682 694409"
+      },
+      {
+        "icon": "ion-ios-email-outline",
+        "title": "EMAIL",
+        "description": "ybenelhassan@digitalgate.ma"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "&copy; Copyright APS. All Rights Reserved 2021",
+    "socialMedia": [
+      "fab fa-linkedin-in",
+      "fab fa-facebook-f",
+      "fab fa-instagram",
+      "fab fa-skype",
+      "fab fa-twitter"
+    ]
+  }
+}
