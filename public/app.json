@@ -4,15 +4,42 @@
     "titles": ["home", "about", "services", "key technologies", "contact"]
   },
   "slider": [
-    { "image": "/images/slide/darkmatter.jpg" },
-    { "image": "/images/slide/edward.jpg" },
-    { "image": "/images/slide/math.jpg" },
-    { "image": "/images/slide/quantum-physics.jpg" },
-    { "image": "/images/slide/solvay.jpg" },
-    { "image": "/images/slide/zewail.jpg" },
-    { "image": "/images/slide/jan.jpg" },
-    { "image": "/images/slide/linus.jpg" },
-    { "image": "/images/slide/bamdad.jpg" }
+    {
+      "original": "/images/slide/darkmatter.jpg",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+    },
+    {
+      "original": "/images/slide/edward.jpg",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+    },
+    {
+      "original": "/images/slide/math.jpg",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+    },
+    {
+      "original": "/images/slide/quantum-physics.jpg",
+      "description": "darkmatter"
+    },
+    {
+      "original": "/images/slide/solvay.jpg",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+    },
+    {
+      "original": "/images/slide/zewail.jpg",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+    },
+    {
+      "original": "/images/slide/jan.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!"
+    },
+    {
+      "original": "/images/slide/linus.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!"
+    },
+    {
+      "original": "/images/slide/bamdad.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!"
+    }
   ],
   "about": {
     "title": "ABOUT US",
