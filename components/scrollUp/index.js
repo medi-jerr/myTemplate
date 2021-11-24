@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button } from "./Style";
+import { Button } from "./style";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { animateScroll } from "react-scroll";
 
