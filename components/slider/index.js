@@ -1,19 +1,20 @@
 import React from "react";
 import ReactImageGallery from "react-image-gallery";
 import app from "/public/app";
-import { Overlay, Main } from "./style";
+import { Main } from "./style";
 import "react-image-gallery/styles/css/image-gallery.css";
+import Schedule from "../calendar";
 
 function Slider() {
   return (
     <Main>
       <ReactImageGallery
         items={app.slider}
-        slideDuration={3000}
+        slideDuration={2000}
         showThumbnails={false}
         swipingTransitionDuration={100}
       />
-      <Overlay></Overlay>
+      <Schedule />
     </Main>
   );
 }

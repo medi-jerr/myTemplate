@@ -2,15 +2,13 @@ body {
   height: 5000px;
   background-color: f8f8f8;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -19,7 +17,6 @@ a {
   width: 90%;
   margin: 0 auto;
 }
-
 @media (max-width: 425px) {
   .container {
     width: 100%;
@@ -27,16 +24,15 @@ a {
   }
 }
 
+//Slider Style: package(react-image-gallery)
+
 .image-gallery-description {
   margin-left: 40px;
 }
-
 .image-gallery-slide .image-gallery-image {
   width: 100% !important;
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
+  object-fit: cover !important;
 }
-
 .image-gallery-icon,
 .image-gallery-bullets,
 .image-gallery-fullscreen-button,
@@ -50,8 +46,7 @@ a {
   bottom: auto !important;
   top: 50% !important;
   left: 100px !important;
-  -webkit-transform: translateY(-50%) !important;
-          transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
   width: 450px !important;
   font-family: "Roboto", sans-serif !important;
   line-height: 1.5 !important;
@@ -61,7 +56,6 @@ a {
   text-align: center !important;
   text-indent: 10px !important;
 }
-
 .image-gallery-description {
   z-index: 9999;
 }
@@ -75,22 +69,18 @@ a {
   height: 100% !important;
   width: 100% !important;
 }
-
+//Calendar Style: package(react-calendar)
 .react-calendar {
   width: 500px !important;
 }
-
 .react-calendar__navigation {
   background-color: #18d26e !important;
 }
-
 .react-calendar__navigation button {
   background: transparent !important;
 }
-
 .react-calendar__month-view__weekdays {
   background-color: #18d26e !important;
   padding: 10px 0px 10px;
   color: #f8f8f8;
 }
-/*# sourceMappingURL=globals.css.map */

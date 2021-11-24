@@ -1,20 +1,28 @@
 {
   "navbar": {
-    "logo": "Arab Physical Society",
-    "titles": ["home", "about", "services", "key technologies", "contact"]
+    "logo": { "icon": "/images/logo.png", "name": "Arab Physical Society" },
+    "titles": [
+      "home",
+      "about",
+      "governance",
+      "membership",
+      "events",
+      "donation",
+      "contact"
+    ]
   },
   "slider": [
     {
       "original": "/images/slide/darkmatter.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque"
     },
     {
       "original": "/images/slide/edward.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci"
     },
     {
       "original": "/images/slide/math.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing "
     },
     {
       "original": "/images/slide/quantum-physics.jpg",
@@ -22,11 +30,11 @@
     },
     {
       "original": "/images/slide/solvay.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque"
     },
     {
       "original": "/images/slide/zewail.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque eum, necessitatibus soluta, deleniti quidem, mollitia porro recusandae explicabo? Blanditiis,nisi. Voluptate a eius quis,ipsam ipsum perspiciatis."
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
       "original": "/images/slide/jan.jpg",
