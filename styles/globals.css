@@ -20,6 +20,75 @@ a {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: calc(48px * 0.9);
+  }
+  h2 {
+    font-size: calc(32px * 0.9);
+  }
+  h3 {
+    font-size: calc(18px * 0.9);
+  }
+  p {
+    font-size: calc(16px * 0.9);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: calc(48px * 0.8);
+  }
+  h2 {
+    font-size: calc(32px * 0.8);
+  }
+  h3 {
+    font-size: calc(18px * 0.8);
+  }
+  p {
+    font-size: calc(16px * 0.8);
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: calc(48px * 0.65);
+  }
+  h2 {
+    font-size: calc(32px * 0.65);
+  }
+  h3 {
+    font-size: calc(18px * 0.65);
+  }
+  p {
+    font-size: calc(16px * 0.65);
+  }
+}
+
 @media (max-width: 425px) {
   .container {
     width: 100%;

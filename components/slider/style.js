@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  position: relative;
+  height: 600px;
 `;
