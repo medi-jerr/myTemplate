@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
 import Slider from "../components/slider";
 import ScrollUp from "../components/scrollUp";
 import About from "../components/about";
 import Features from "../components/features";
+import Team from "../components/team";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       <Slider />
       <Features />
       <About />
+      <Team />
       <ScrollUp />
     </div>
   );

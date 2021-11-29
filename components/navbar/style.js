@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa";
 export const Main = styled.div`
   background-color: ${(props) =>
     props.dark ? props.theme.prColor : "transparant"};
-  padding: ${(props) => (props.dark ? "10px 0 10px" : "15px 0 20px")};
+  padding: ${(props) => (props.dark ? "20px 0 20px" : "25px 0 30px")};
   position: fixed;
   top: 0;
   left: 0;
@@ -25,14 +25,21 @@ export const Container = styled.div`
     padding: 0 10px;
     transition: all 0.2s ease-in-out;
     font-size: ${(props) => props.theme.navItems};
+    @media (max-width: 1024px) {
+      font-size: calc(${(props) => props.theme.navItems}*0.9);
+    }
   }
   li:hover {
     color: ${(props) => props.theme.primaryColor};
     cursor: pointer;
   }
+
   @media (max-width: 768px) {
     ul {
       display: none;
+      li {
+        font-size: calc(${(props) => props.theme.navItems}*0.65);
+      }
     }
   }
 `;
@@ -42,15 +49,15 @@ export const TheLink = styled(Link)`
 `;
 export const Logo = styled.h1`
   font-size: ${(props) => props.theme.logoFs};
+  margin-left: 10px;
 `;
 export const LogoIcon = styled(Image)`
   border-radius: 50%;
 `;
 export const LogoSec = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  border-left: 4px solid ${(props) => props.theme.primaryColor};
+  align-items: center;
+
   /* margin-left: 35px; */
   padding: 0 0 0 30px;
   cursor: pointer;

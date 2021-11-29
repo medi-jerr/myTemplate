@@ -1,20 +1,12 @@
 {
   "navbar": {
-    "logo": { "icon": "/images/logo.png", "name": "Arab Physical Society" },
-    "titles": [
-      "home",
-      "about",
-      "governance",
-      "membership",
-      "events",
-      "donation",
-      "contact"
-    ]
+    "logo": { "icon": "/images/logo.png", "name": "APS" },
+    "titles": ["home", "about", "membership", "events", "donation", "contact"]
   },
   "slider": [
     {
       "original": "/images/slide/darkmatter.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque"
+      "description": " Learn hard and soft skills \nWe share information and work on some projects together. \n Our team\nOur team consists of three members \n Our leader is a seasoned developer \nMarouan is the founder, has more than 10 years of experience. He is a full stack developer \n Powered by \nOmar is a front end developer with seven years of experience\n Powered by \nMehdi front end developer with two years of experience,  \nWe are a team join us \ndaily meeting on Telegram, Zoom and Google meet"
     },
     {
       "original": "/images/slide/edward.jpg",
@@ -55,15 +47,15 @@
     "sections": [
       {
         "id": 1,
-        "image": "/images/v1.jpg",
+        "image": "/images/linus.jpg",
         "title": "Mission",
         "description": "»To promote excellence and creativity in the field of physics for the benefit of the Arab region and humanity, it.\n » Encourages scientific and research collaboration among researchers and students in the Arab region.\n »Organizes scientific and educational activities. \n »Joins the physical societies and relevant international scientific institutions to reduce the knowledge gap in physics between the Arab world and developed countries.\n »preads physics education and knowledge through conferences, seminars, workshops, summer and winter schools in the fields of physics; in addition to delivering specialized and public lectures. \n »Establishes peer-review journal in fundamental physics and applications.\n »Promotes interactions among individuals, institutions and organizations with an interest in physics, especially among members of the APS.\n »Addresses the ethics in science topic."
       },
       {
         "id": 2,
-        "image": "/images/v2.jpg",
-        "title": "Mission",
-        "description": "»To promote research, teaching and outreach in physics.\n+ »To transmit, to society and institutions alike, the importance of physics in enhancing citizens’ knowledge, and the country's economy and social progress.\n »To be an Arabic reference in the topics related to the physical sciences and technologies.\n »To be the institutional advisory body for all matters concerning physics in the Arab region to the corresponding authorities.\n »To contribute to scientific and technological education in society through the promotion of activities designed to strengthen the dissemination and outreach of physics, including the National and International Physics Olympiads.\n »To evaluate and work closely with different scientific disciplines, especially with the disciplines discussing issues related to physics.\n »To support postgraduate studies of the students in the Arab world, and to provide them with joint supervision among Arab physicists.\n »To highlight the importance of theoretical and experimental physics and its impact on the state economy and social progress.\n »To promote cooperation in the field of physics education and raise awareness of its latest research by organizing an annual conference on physics, joint seminars and lectures.\n»To participate in forming scientific committees in the field of physics at the Arab world level, and to join the international scientific institutions and committees as scientific representatives.\n »To award prizes and recognitions to distinguished physicists."
+        "image": "/images/jan.jpg",
+        "title": "Objectives",
+        "description": "»To promote research, teaching and outreach in physics.\n »To transmit, to society and institutions alike, the importance of physics in enhancing citizens’ knowledge, and the country's economy and social progress.\n »To be an Arabic reference in the topics related to the physical sciences and technologies.\n »To be the institutional advisory body for all matters concerning physics in the Arab region to the corresponding authorities.\n »To contribute to scientific and technological education in society through the promotion of activities designed to strengthen the dissemination and outreach of physics, including the National and International Physics Olympiads.\n »To evaluate and work closely with different scientific disciplines, especially with the disciplines discussing issues related to physics.\n »To support postgraduate studies of the students in the Arab world, and to provide them with joint supervision among Arab physicists.\n »To highlight the importance of theoretical and experimental physics and its impact on the state economy and social progress.\n »To promote cooperation in the field of physics education and raise awareness of its latest research by organizing an annual conference on physics, joint seminars and lectures."
       }
     ]
   },
@@ -73,6 +65,78 @@
     "paragraph": "Award-winning SAAS, web and mobile from heroes like you.",
     "start": "Get Started",
     "background": "/image/1.jpg"
+  },
+  "team": {
+    "title": "ABOUT US",
+    "description": "The Arab Physical Society (APS) is an NGO non-profit membership organization that aims to spread and promote physics knowledge ",
+    "members": [
+      {
+        "name": "Omar",
+        "image": "/images/1.jpg",
+        "profission": "Web developer",
+        "contact": [
+          { "facebook": "#" },
+          { "twitter": "#" },
+          { "linkden": "#" }
+        ],
+        "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
+      },
+      {
+        "name": "Mehdi",
+        "image": "/images/2.jpg",
+        "profission": "Web developer",
+        "contact": [
+          { "facebook": "#" },
+          { "twitter": "#" },
+          { "linkden": "#" }
+        ],
+        "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
+      },
+      {
+        "name": "Marouan",
+        "image": "/images/3.jpg",
+        "profission": "Web developer",
+        "contact": [
+          { "facebook": "#" },
+          { "twitter": "#" },
+          { "linkden": "#" }
+        ],
+        "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
+      },
+      {
+        "name": "Khalid",
+        "image": "/images/4.jpg",
+        "profission": "Web developer",
+        "contact": [
+          { "facebook": "#" },
+          { "twitter": "#" },
+          { "linkden": "#" }
+        ],
+        "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
+      },
+      {
+        "name": "Hamza",
+        "image": "/images/5.jpg",
+        "profission": "Web developer",
+        "contact": [
+          { "facebook": "#" },
+          { "twitter": "#" },
+          { "linkden": "#" }
+        ],
+        "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
+      },
+      {
+        "name": "Najib",
+        "image": "/images/6.jpg",
+        "profission": "Web developer",
+        "contact": [
+          { "facebook": "#" },
+          { "twitter": "#" },
+          { "linkden": "#" }
+        ],
+        "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
+      }
+    ]
   },
   "feature": [
     {
