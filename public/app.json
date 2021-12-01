@@ -6,7 +6,7 @@
   "slider": [
     {
       "original": "/images/slide/darkmatter.jpg",
-      "description": " Learn hard and soft skills \nWe share information and work on some projects together. \n Our team\nOur team consists of three members \n Our leader is a seasoned developer \nMarouan is the founder, has more than 10 years of experience. He is a full stack developer \n Powered by \nOmar is a front end developer with seven years of experience\n Powered by \nMehdi front end developer with two years of experience,  \nWe are a team join us \ndaily meeting on Telegram, Zoom and Google meet"
+      "description": " Learn hard and soft skills \nWe share information and work on some projects together. \n Our team\nOur team consists of three members \n Our leader is a seasoned developer \nMarouan is the founder, has more than 10 years of experience. He is a full stack developer \n Powered by \nOmar front end developer with seven years of experience\n Powered by \nMehdi front end developer with two years of experience.  \nWe are a team join us \ndaily meeting on Telegram, Zoom and Google meet"
     },
     {
       "original": "/images/slide/edward.jpg",
@@ -41,6 +41,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!"
     }
   ],
+
   "about": {
     "title": "ABOUT US",
     "description": "The Arab Physical Society (APS) is an NGO non-profit membership organization that aims to spread and promote physics knowledge and its advancement, improve scientific education, research and human capacity building in the Arab world. Arab world includes all countries having Arabic as an official language. ASP fosters diversity to ensure that everyone has the same opportunities, regardless of gender, ethnicity, religion and culture.\n APS consists of a group of professional Arab researchers in the field of Fundamental Physics and applications who aim to promote physics knowledge and research in the Arab World.\n The APS has no limited duration. The ordinary general assembly shall convene at least once a year within three months of the end of the fiscal year whenever necessary.",
@@ -55,7 +56,7 @@
         "id": 2,
         "image": "/images/jan.jpg",
         "title": "Objectives",
-        "description": "»To promote research, teaching and outreach in physics.\n »To transmit, to society and institutions alike, the importance of physics in enhancing citizens’ knowledge, and the country's economy and social progress.\n »To be an Arabic reference in the topics related to the physical sciences and technologies.\n »To be the institutional advisory body for all matters concerning physics in the Arab region to the corresponding authorities.\n »To contribute to scientific and technological education in society through the promotion of activities designed to strengthen the dissemination and outreach of physics, including the National and International Physics Olympiads.\n »To evaluate and work closely with different scientific disciplines, especially with the disciplines discussing issues related to physics.\n »To support postgraduate studies of the students in the Arab world, and to provide them with joint supervision among Arab physicists.\n »To highlight the importance of theoretical and experimental physics and its impact on the state economy and social progress.\n »To promote cooperation in the field of physics education and raise awareness of its latest research by organizing an annual conference on physics, joint seminars and lectures."
+        "description": "»To promote research, teaching and outreach in physics.\n »To transmit, to society and institutions alike, the importance of physics in enhancing citizens’ knowledge, and the country's economy and social progress.\n »To be an Arabic reference in the topics related to the physical sciences and technologies.\n »To be the institutional advisory body for all matters concerning physics in the Arab region to the corresponding authorities.\n »To contribute to scientific and technological education in society through the promotion of activities designed to strengthen the dissemination and outreach of physics, including the National and International Physics Olympiads.\n »To evaluate and work closely with different scientific disciplines, especially with the disciplines discussing issues related to physics.\n »To support postgraduate studies of the students in the Arab world, and to provide them with joint supervision among Arab physicists.\n »To highlight the importance of theoretical and experimental physics and its impact on the state economy and social progress."
       }
     ]
   },
@@ -67,13 +68,14 @@
     "background": "/image/1.jpg"
   },
   "team": {
-    "title": "ABOUT US",
-    "description": "The Arab Physical Society (APS) is an NGO non-profit membership organization that aims to spread and promote physics knowledge ",
+    "title": "TEAM MEMBERS",
+    "description": "Advisory Commitee is a group of volunteers, who are scientific experts, including physician-researchers and other science-oriented professionals. AC represents the Arab world and every country is represented by only one prominent Arab physicist. Governing Council (GC) uses AC to obtain independent expert advice on APS scientific and strategic matters for a couple of years. GC seeks to include the views of women and men, members of ",
     "members": [
       {
-        "name": "Omar",
+        "name": "Mohammed Akram Fellah",
         "image": "/images/1.jpg",
-        "profission": "Web developer",
+        "img": "/images/fellah.jpg",
+        "profission": "Academic Director",
         "contact": [
           { "facebook": "#" },
           { "twitter": "#" },
@@ -82,9 +84,10 @@
         "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
       },
       {
-        "name": "Mehdi",
+        "name": "Shaaban Khalil",
         "image": "/images/2.jpg",
-        "profission": "Web developer",
+        "img": "/images/Shaaban.jpg",
+        "profission": "Preseident",
         "contact": [
           { "facebook": "#" },
           { "twitter": "#" },
@@ -93,9 +96,10 @@
         "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
       },
       {
-        "name": "Marouan",
+        "name": "Ammar Sakaji",
         "image": "/images/3.jpg",
-        "profission": "Web developer",
+        "img": "/images/ammar.jpg",
+        "profission": "Financial Director",
         "contact": [
           { "facebook": "#" },
           { "twitter": "#" },
@@ -104,9 +108,10 @@
         "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
       },
       {
-        "name": "Khalid",
+        "name": "Sonia Haddad",
         "image": "/images/4.jpg",
-        "profission": "Web developer",
+        "img": "/images/4.jpg",
+        "profission": "Membership Director",
         "contact": [
           { "facebook": "#" },
           { "twitter": "#" },
@@ -115,9 +120,10 @@
         "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
       },
       {
-        "name": "Hamza",
+        "name": "Farida Fassi",
         "image": "/images/5.jpg",
-        "profission": "Web developer",
+        "img": "/images/farida.jpg",
+        "profission": "Secretary-General",
         "contact": [
           { "facebook": "#" },
           { "twitter": "#" },
@@ -126,9 +132,10 @@
         "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
       },
       {
-        "name": "Najib",
+        "name": "Shawqi Al Dallal",
         "image": "/images/6.jpg",
-        "profission": "Web developer",
+        "img": "/images/mas.jpg",
+        "profission": "International Cooperation Director",
         "contact": [
           { "facebook": "#" },
           { "twitter": "#" },
@@ -137,6 +144,10 @@
         "description": "Business owners all over the world in the e-Commerce niche respect the trustful Hybris solutions. Coupled with SAP, Hybris development services are a hands-on complex of synergistic operational tools enabled to ease the process of running an omnichannel business."
       }
     ]
+  },
+  "committee": {
+    "title": "Advisory Commitee",
+    "description": "is a group of volunteers, who are scientific experts, including physician-researchers and other science-oriented professionals. AC represents the Arab world and every country is represented by only one prominent Arab physicist. Governing Council (GC) uses AC to obtain independent expert advice on APS scientific and strategic matters for a couple of years. GC seeks to include the views of women and men, members of all racial and ethnic groups, and individuals with and without disabilities on its advisory committees and, therefore, encourages nominations of appropriately qualified candidates from these groups. GC nominate the AC with terms of service where members are appointed for one year renewable once at most, in order to give a chance for other members to contribute."
   },
   "feature": [
     {

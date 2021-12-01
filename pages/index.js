@@ -4,6 +4,7 @@ import ScrollUp from "../components/scrollUp";
 import About from "../components/about";
 import Features from "../components/features";
 import Team from "../components/team";
+import Committee from "../components/committee";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Features />
       <About />
       <Team />
+      <Committee />
       <ScrollUp />
     </div>
   );

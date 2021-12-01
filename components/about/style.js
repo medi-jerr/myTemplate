@@ -16,7 +16,7 @@ export const Container = styled.div`
     padding: 0 0 15px;
     margin: 0 0 20px;
     font-weight: bold;
-    /* border-bottom: 1px solid #ddd; */
+
     position: relative;
     &::after {
       content: " ";
@@ -44,7 +44,6 @@ export const Container = styled.div`
   }
 `;
 export const Section = styled.div`
-  /* background-image: url(${(props) => props.img}); */
   background-image: linear-gradient(
     ${(props) => props.theme.prColor},
     ${(props) => props.theme.primaryColor}

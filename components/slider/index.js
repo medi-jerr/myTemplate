@@ -57,18 +57,15 @@ function Slider() {
   };
 
   return (
-    <Main img={app.slider[0].original}>
+    <Main img={app.slider[0].original} id="home">
       <p className="overlay"></p>
       <div className="description">
         <h2 className="title">{item[0]}</h2>
-
         {desc()}
-
         <button className="button" onClick={generatorFun}>
           Join Us
         </button>
       </div>
-
       <Schedule />
     </Main>
   );

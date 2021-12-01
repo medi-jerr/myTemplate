@@ -1,6 +1,6 @@
 body {
   height: 5000px;
-  background-color: f8f8f8;
+  background-color: #f8f8f8;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -105,7 +105,13 @@ p {
 }
 
 .react-calendar__month-view__weekdays {
-  background: -webkit-gradient(linear, left top, right top, from(#222222), to(#18d26e)) !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#222222),
+    to(#18d26e)
+  ) !important;
   background: linear-gradient(to right, #222222, #18d26e) !important;
   padding: 10px 0px 10px;
   color: #f8f8f8;
