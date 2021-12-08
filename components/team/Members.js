@@ -8,6 +8,7 @@ import {
   BigImage,
   ImageCont,
   AiClose,
+  Cont,
 } from "./style";
 import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 
@@ -58,11 +59,6 @@ function Members({ members }) {
         <BigImage onClick={() => setShow(false)}>
           <AiClose />
           <ImageCont className="img" back={members[item].image}>
-            {/* <Image
-              src={members[item].image}
-              layout="fill"
-              alt={members[item].name}
-            /> */}
             <p>
               {members[item].description.slice(0, 200)}...
               <span>Read more</span>

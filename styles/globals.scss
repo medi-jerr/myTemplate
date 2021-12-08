@@ -17,6 +17,16 @@ a {
   width: 90%;
   margin: 0 auto;
 }
+.containerTwo {
+  width: 70%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .containerTwo {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 h1,
 h2,
 h3 {
@@ -88,7 +98,7 @@ p {
 
 //Calendar Style: package(react-calendar)
 .react-calendar {
-  width: 400px !important;
+  width: 310px !important;
 }
 .react-calendar__navigation {
   // background-color: linear-gradient(to right, #222222, #18d26e) !important;

@@ -4,7 +4,7 @@ export const Main = styled.div`
   width: 95%;
   background-color: ${(props) => props.theme.prColor};
   border-radius: 10px;
-  margin: -50px auto;
+  margin: -50px auto 0;
   color: ${(props) => props.theme.bodyColor};
   display: flex;
   justify-content: space-between;

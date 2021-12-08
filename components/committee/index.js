@@ -7,7 +7,7 @@ function Committee() {
     <Main back="/images/slide/quantum.jpg">
       <Right>
         <h1>{app.committee.title}</h1>
-        <p>{app.committee.description}</p>
+        <p className="desc">{app.committee.description}</p>
       </Right>
     </Main>
   );

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { AiOutlineClose } from "react-icons/ai";
 
 export const Main = styled.div`
-  padding: 60px 0 40px;
+  padding: 0px 0 40px;
   color: ${(props) => props.theme.prColor};
   margin-top: 20px;
 `;
@@ -13,26 +13,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  h1 {
-    padding: 0 0 15px;
-    margin: 0 0 20px;
-    font-weight: bold;
-    position: relative;
-    &::after {
-      content: " ";
-      position: absolute;
-      width: 30%;
-      height: 3px;
-      background-color: ${(props) => props.theme.primaryColor};
-      bottom: -1.5px;
-      left: 0;
-    }
-  }
-  .paragraph {
-    letter-spacing: 1.2px;
-    margin-bottom: 30px;
-    text-indent: 10px;
-  }
+`;
+export const Cont = styled.div`
+  width: calc(100% / 3);
 `;
 export const TeamMemb = styled.div`
   display: flex;
@@ -42,8 +25,8 @@ export const TeamMemb = styled.div`
 `;
 
 export const ImgCont = styled.div`
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: #ddd;
   border-radius: 50%;
   position: relative;

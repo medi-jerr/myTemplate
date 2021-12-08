@@ -43,20 +43,20 @@
   ],
 
   "about": {
-    "title": "ABOUT US",
-    "description": "The Arab Physical Society (APS) is an NGO non-profit membership organization that aims to spread and promote physics knowledge and its advancement, improve scientific education, research and human capacity building in the Arab world. Arab world includes all countries having Arabic as an official language. ASP fosters diversity to ensure that everyone has the same opportunities, regardless of gender, ethnicity, religion and culture.\n APS consists of a group of professional Arab researchers in the field of Fundamental Physics and applications who aim to promote physics knowledge and research in the Arab World.\n The APS has no limited duration. The ordinary general assembly shall convene at least once a year within three months of the end of the fiscal year whenever necessary.",
+    "title": "About Us",
+    "description": "The Arab Physical Society (APS) is an NGO non-profit membership organization that aims to spread and promote physics knowledge and its advancement, improve scientific education, research and human capacity building in the Arab world. Arab world includes all countries having Arabic as an official language. ASP fosters diversity to ensure that everyone has the same opportunities, regardless of gender, ethnicity, religion and culture.\n APS consists of a group of professional Arab researchers in the field of Fundamental Physics and applications who aim to promote physics knowledge and research in the Arab World..",
     "sections": [
       {
         "id": 1,
         "image": "/images/linus.jpg",
         "title": "Mission",
-        "description": "»To promote excellence and creativity in the field of physics for the benefit of the Arab region and humanity, it.\n » Encourages scientific and research collaboration among researchers and students in the Arab region.\n »Organizes scientific and educational activities. \n »Joins the physical societies and relevant international scientific institutions to reduce the knowledge gap in physics between the Arab world and developed countries.\n »preads physics education and knowledge through conferences, seminars, workshops, summer and winter schools in the fields of physics; in addition to delivering specialized and public lectures. \n »Establishes peer-review journal in fundamental physics and applications.\n »Promotes interactions among individuals, institutions and organizations with an interest in physics, especially among members of the APS.\n »Addresses the ethics in science topic."
+        "description": "To promote excellence and creativity in the field of physics for the benefit of the Arab region and humanity, it.\n  Encourages scientific and research collaboration among researchers and students in the Arab region.\n Organizes scientific and educational activities. \n Joins the physical societies and relevant international scientific institutions to reduce the knowledge gap in physics between the Arab world and developed countries.\n preads physics education and knowledge through conferences, seminars, workshops, summer and winter schools in the fields of physics."
       },
       {
         "id": 2,
         "image": "/images/jan.jpg",
         "title": "Objectives",
-        "description": "»To promote research, teaching and outreach in physics.\n »To transmit, to society and institutions alike, the importance of physics in enhancing citizens’ knowledge, and the country's economy and social progress.\n »To be an Arabic reference in the topics related to the physical sciences and technologies.\n »To be the institutional advisory body for all matters concerning physics in the Arab region to the corresponding authorities.\n »To contribute to scientific and technological education in society through the promotion of activities designed to strengthen the dissemination and outreach of physics, including the National and International Physics Olympiads.\n »To evaluate and work closely with different scientific disciplines, especially with the disciplines discussing issues related to physics.\n »To support postgraduate studies of the students in the Arab world, and to provide them with joint supervision among Arab physicists.\n »To highlight the importance of theoretical and experimental physics and its impact on the state economy and social progress."
+        "description": "To promote research, teaching and outreach in physics.\n To transmit, to society and institutions alike, the importance of physics in enhancing citizens’ knowledge, and the country's economy and social progress.\n To be an Arabic reference in the topics related to the physical sciences and technologies.\n To be the institutional advisory body for all matters concerning physics in the Arab region to the corresponding authorities."
       }
     ]
   },
@@ -68,7 +68,7 @@
     "background": "/image/1.jpg"
   },
   "team": {
-    "title": "TEAM MEMBERS",
+    "title": "Team members",
     "description": "Advisory Commitee is a group of volunteers, who are scientific experts, including physician-researchers and other science-oriented professionals. AC represents the Arab world and every country is represented by only one prominent Arab physicist. Governing Council (GC) uses AC to obtain independent expert advice on APS scientific and strategic matters for a couple of years. GC seeks to include the views of women and men, members of ",
     "members": [
       {
@@ -186,28 +186,38 @@
       }
     ]
   },
-  "keytechnologies": {
-    "title": "keytechnologies",
-    "technologies": [
+  "event": {
+    "title": "Upcoming events",
+    "events": [
       {
-        "tech": "SAP COMMERCE CLOUD (HYBRIS), SAP MARKETING CLOUD",
-        "prog": 100,
-        "color": "#28a745"
+        "image": "/images/ev1.jpg",
+        "name": "Physics",
+        "description": "lorem epsum compiled client successfully"
       },
       {
-        "tech": "LIFERAY",
-        "prog": 100,
-        "color": "#007bff"
+        "image": "/images/ev2.jpg",
+        "name": "Physics",
+        "description": "lorem epsum compiled client successfully"
       },
       {
-        "tech": "MICROSERVICES IMPLEMENTAITON",
-        "prog": 100,
-        "color": "#ffc107"
+        "image": "/images/ev3.jpg",
+        "name": "Dark energy",
+        "description": "lorem epsum compiled client successfully"
       },
       {
-        "tech": "NETWORKING",
-        "prog": 100,
-        "color": "#dc3545"
+        "image": "/images/ev4.jpg",
+        "name": "Dark matter",
+        "description": "lorem epsum compiled client successfully lorem ytout"
+      },
+      {
+        "image": "/images/ev5.jpg",
+        "name": "Physics",
+        "description": "lorem epsum compiled client successfully"
+      },
+      {
+        "image": "/images/ev6.jpg",
+        "name": "Physics",
+        "description": "lorem epsum compiled client successfully"
       }
     ]
   },
@@ -221,36 +231,56 @@
       { "number": 18, "title": "Clients" }
     ]
   },
-  "contactUs": {
+  "contact": {
     "title": "contact us",
     "description": "Have an upcoming project?",
     "background": "#f7f7f7",
     "contact": [
       {
-        "icon": "ion-ios-location-outline",
+        "icon": "/images/map.svg",
         "title": "ADDRESS",
-        "description": "Rabat Mahaj Hay Ryad Centre,5th floor 10100 RABAT - Maroc."
+        "description": "A108 Adam Street, New York, NY 535022"
       },
       {
-        "icon": "ion-ios-telephone-outline",
+        "icon": "/images/phone.svg",
         "title": "PHONE NUMBER",
-        "description": "+212 682 694409"
+        "description": "+962 77819 5003"
       },
       {
-        "icon": "ion-ios-email-outline",
+        "icon": "/images/envelope.svg",
         "title": "EMAIL",
-        "description": "ybenelhassan@digitalgate.ma"
+        "description": "info@arabphysicalsociety.org"
       }
     ]
   },
+  "donate": {
+    "title": "Donate",
+    "description": "APS is a non-profit organization that relies on registration fees from financially able participants and donations to fund essential scientific activities. If you are able, please consider donating using the below PayPal link. Thank you very much!."
+  },
   "footer": {
-    "copyright": "&copy; Copyright APS. All Rights Reserved 2021",
-    "socialMedia": [
-      "fab fa-linkedin-in",
-      "fab fa-facebook-f",
-      "fab fa-instagram",
-      "fab fa-skype",
-      "fab fa-twitter"
-    ]
+    "conclusion": {
+      "title": "APS",
+      "description": "The Arab Physical Society (APS) is an NGO non-profit membership organization that aims to spread and promote physics knowledge and its advancement, improve scientific education, research and human capacity building in the Arab world. Arab world includes all countries having Arabic as an official language.",
+      "links": {
+        "title": "USEFUL LINKS",
+        "link": ["Home", "About us", "Services"]
+      },
+      "contact": {
+        "title": "CONTACT US",
+        "adress": "A108 Adam Street, New York, NY 535022",
+        "phone": "Phone: 0606060606",
+        "email": "Email: jawadmedi@gmail.com"
+      }
+    },
+    "copyright": {
+      "copyright": "Copyright APS. All Rights Reserved 2021",
+      "socialMedia": [
+        "fab fa-linkedin-in",
+        "fab fa-facebook-f",
+        "fab fa-instagram",
+        "fab fa-skype",
+        "fab fa-twitter"
+      ]
+    }
   }
 }

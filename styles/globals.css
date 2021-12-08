@@ -1,6 +1,6 @@
 body {
   height: 5000px;
-  background-color: #f8f8f8;
+  background-color: f8f8f8;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -18,6 +18,18 @@ a {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.containerTwo {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .containerTwo {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 h1,
@@ -97,7 +109,7 @@ p {
 }
 
 .react-calendar {
-  width: 400px !important;
+  width: 310px !important;
 }
 
 .react-calendar__navigation button {
@@ -105,13 +117,7 @@ p {
 }
 
 .react-calendar__month-view__weekdays {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#222222),
-    to(#18d26e)
-  ) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#222222), to(#18d26e)) !important;
   background: linear-gradient(to right, #222222, #18d26e) !important;
   padding: 10px 0px 10px;
   color: #f8f8f8;
