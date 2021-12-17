@@ -12,16 +12,18 @@ export const Main = styled.div`
     gap: 10px;
   }
   .card {
-    width: 300px;
+    width: 200px;
     border: 1px solid #ddd;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #2227;
+    box-shadow: 0 0 10px #ccc9;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
+    max-width: 280px;
     gap: 10px;
+    margin: 0 auto;
   }
 `;
 export const Form = styled.form`
@@ -32,6 +34,8 @@ export const Form = styled.form`
     padding: 0 10px;
     font-size: 17px;
     border-bottom: 1px solid #ddd;
+    color: #222;
+    letter-spacing: 1.5px;
   }
   input:focus {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
@@ -44,12 +48,11 @@ export const Form = styled.form`
     border-radius: 10px;
   }
   textarea:hover {
-    box-shadow: 0 0 3px #2227;
-    border: none;
+    box-shadow: 0 0 3px #ccc7;
+    /* border: none; */
   }
   textarea:focus {
-    box-shadow: 0 0 10px #2227;
-    border: none;
+    box-shadow: 0 0 10px #ccc7;
     outline: none;
   }
   input[type="submit"] {

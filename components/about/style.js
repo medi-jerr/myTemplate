@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Main = styled.div`
   padding: 20px 0 40px;
@@ -50,6 +50,26 @@ export const Mession = styled.div`
     height: 100%;
     background-color: #f0f0f0cc;
   }
+  .slick-next:before {
+    content: "→";
+    font-size: 50px;
+    color: #222;
+  }
+  .slick-prev :before {
+    font-size: 50px;
+    color: #222;
+  }
+  .slick-prev {
+    left: 60px;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 110px;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+  }
 `;
 export const Page = styled.div`
   min-height: 400px;
@@ -79,5 +99,32 @@ export const Page = styled.div`
     /* p {
       font-size: 18px;
     } */
+  }
+`;
+
+// ***********
+export const Arrow = styled.div`
+  font-size: 90px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity 0.1s ease-in-out;
+  ${(props) =>
+    props.dir == "next"
+      ? css`
+          right: 100px;
+        `
+      : css`
+          left: 100px;
+        `}
+  &:hover {
+    opacity: 1;
   }
 `;

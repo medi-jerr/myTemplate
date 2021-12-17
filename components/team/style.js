@@ -46,19 +46,24 @@ export const ImgCont = styled.div`
     transition: bottom 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     visibility: hidden;
     & * {
       cursor: pointer;
     }
+    h3 {
+      text-align: center;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
     p {
       color: #999;
-      width: 70%;
-
+      width: 68%;
       margin: 10px auto;
       text-align: center;
       line-height: 100%;
+      justify-self: center;
     }
   }
   &:hover .overlay {
@@ -122,9 +127,8 @@ export const Social = styled.div`
   }
 `;
 export const BigImage = styled.div`
-  background-color: #0006;
+  background-color: #0009;
   backdrop-filter: blur(10px);
-  /* opacity: 0.3; */
   position: fixed;
   z-index: 9999;
   width: 100%;

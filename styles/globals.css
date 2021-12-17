@@ -15,14 +15,26 @@ a {
   margin: 0;
 }
 
+* ::-moz-selection {
+  background-color: #18d26e;
+  color: #fff;
+}
+
+* ::selection {
+  background-color: #18d26e;
+  color: #fff;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
+  max-width: 1280px;
 }
 
 .containerTwo {
   width: 70%;
   margin: 0 auto;
+  max-width: 985px;
 }
 
 @media (max-width: 768px) {

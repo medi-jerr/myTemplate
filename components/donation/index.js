@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function Donation() {
   return (
-    <Main>
+    <Main id="donation">
       <div className="containerTwo">
         <Header title={app.donate.title} description={app.donate.description} />
       </div>
@@ -15,8 +15,10 @@ function Donation() {
         <div
           className="donate"
           onClick={() => {
-            location.href =
-              "https://www.paypal.com/donate?hosted_button_id=BF5Z784YRSX4Y";
+            window.open(
+              "https://www.paypal.com/donate?hosted_button_id=BF5Z784YRSX4Y",
+              "_blank"
+            );
           }}
         >
           <Image

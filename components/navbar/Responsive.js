@@ -24,11 +24,7 @@ function Responsive({ titles }) {
       <List show={editMode}>
         {titles &&
           titles.map((item) => (
-            <ListItem
-              onClick={() => setEditMode(false)}
-              value={item}
-              key={Math.random()}
-            >
+            <ListItem onClick={showList} value={item} key={Math.random()}>
               <LinkItemList to={item} smooth={true} duration={1000}>
                 {item}
                 <ContIcon>

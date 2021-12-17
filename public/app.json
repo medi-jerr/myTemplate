@@ -253,6 +253,23 @@
       }
     ]
   },
+  "join": {
+    "title": "Join Us",
+    "description": "Five membership categories are proposed: regular or individual, associate, honorary, students, organizations/foundations.\n Members are from the Arab world or diaspora. Members from the Arab world may be foreigners working locally",
+    "plan": [
+      { "title": "Regular", "price": 50, "back": "#ff0000, #990000, #800" },
+      {
+        "title": "Regular",
+        "price": 100,
+        "back": "#00ff00, #009900, #008000"
+      },
+      {
+        "title": "Regular",
+        "price": 150,
+        "back": "#ffff00, #999900, #808000"
+      }
+    ]
+  },
   "donate": {
     "title": "Donate",
     "description": "APS is a non-profit organization that relies on registration fees from financially able participants and donations to fund essential scientific activities. If you are able, please consider donating using the below PayPal link. Thank you very much!."

@@ -56,8 +56,8 @@ function Members({ members }) {
         </div>
       ))}
       {show && (
-        <BigImage onClick={() => setShow(false)}>
-          <AiClose />
+        <BigImage>
+          <AiClose onClick={() => setShow(false)} />
           <ImageCont className="img" back={members[item].image}>
             <p>
               {members[item].description.slice(0, 200)}...

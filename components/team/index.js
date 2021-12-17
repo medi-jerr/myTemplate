@@ -9,7 +9,6 @@ function Team() {
     <Main id="membership">
       <Container className="containerTwo">
         <Header title={app.team.title} description={app.team.description} />
-
         <Members members={app.team.members} />
       </Container>
     </Main>

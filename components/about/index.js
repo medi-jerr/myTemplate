@@ -1,19 +1,9 @@
 import React from "react";
 import app from "/public/app";
-import { Main, Container, Mession, Page, Title, Paragraph } from "./style";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Main, Container, Mession, Title, Paragraph } from "./style";
+import TheSlider from "./TheSlider";
 
 function About() {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-  };
   return (
     <Main id="about">
       <Container className="containerTwo">
@@ -25,20 +15,7 @@ function About() {
         ))}
       </Container>
       <Mession back="/images/zhai.jpg">
-        <Slider {...settings}>
-          {app.about.sections.map((item, i) => (
-            <Page key={i}>
-              <div className="containerTwo">
-                <div className="section">
-                  <Title>{item.title}</Title>
-                  {item.description.split("\n").map((it, i) => (
-                    <Paragraph key={i}>{it}</Paragraph>
-                  ))}
-                </div>
-              </div>
-            </Page>
-          ))}
-        </Slider>
+        <TheSlider data={app.about.sections} />
       </Mession>
       <div className="container"></div>
     </Main>

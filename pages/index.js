@@ -9,6 +9,8 @@ import Footer from "../components/footer";
 import Contact from "../components/contact";
 import Events from "../components/events";
 import Donation from "../components/donation";
+import JoinUs from "../components/joinUs";
+// import HomePage from "../components/home";
 
 export default function Home() {
   return (
@@ -19,11 +21,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Slider />
+      {/* <HomePage /> */}
       <Features />
       <Events />
       <About />
       <Team />
       <Committee />
+      <JoinUs />
       <Donation />
       <Contact />
       <Footer />
