@@ -49,7 +49,6 @@ export const Form = styled.form`
   }
   textarea:hover {
     box-shadow: 0 0 3px #ccc7;
-    /* border: none; */
   }
   textarea:focus {
     box-shadow: 0 0 10px #ccc7;
@@ -68,6 +67,8 @@ export const Form = styled.form`
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 50px;
+    position: relative;
+
     input {
       flex-basis: 400px;
       flex-grow: 1;

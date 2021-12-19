@@ -70,9 +70,28 @@ export const Mession = styled.div`
     position: absolute;
     bottom: 10px;
   }
+  .slick-dots li button {
+    border: 1px solid #aaa;
+    border-radius: 50%;
+  }
+
+  .slick-dots li button:before {
+    color: #000;
+    width: 14px;
+    height: 14px;
+    background: #000;
+    font-size: 2px;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    opacity: 0;
+  }
+  .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+  }
 `;
 export const Page = styled.div`
-  min-height: 400px;
+  min-height: 450px;
   .containerTwo {
     height: 100%;
     display: flex;

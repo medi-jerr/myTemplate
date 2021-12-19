@@ -10,7 +10,7 @@ import Contact from "../components/contact";
 import Events from "../components/events";
 import Donation from "../components/donation";
 import JoinUs from "../components/joinUs";
-// import HomePage from "../components/home";
+import HomePage from "../components/home";
 
 export default function Home() {
   return (
@@ -20,8 +20,8 @@ export default function Home() {
         <meta name="description" content="Arab Physical Society" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Slider />
-      {/* <HomePage /> */}
+      {/* <Slider /> */}
+      <HomePage />
       <Features />
       <Events />
       <About />
@@ -35,3 +35,10 @@ export default function Home() {
     </>
   );
 }
+// export async function getStaticProps() {
+//   const rq = await fetch("http://localhost:1337/api/members?populate=*");
+//   const data = await rq.json();
+//   return {
+//     props: { data },
+//   };
+// }

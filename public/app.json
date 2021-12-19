@@ -6,39 +6,35 @@
   "slider": [
     {
       "original": "/images/slide/darkmatter.jpg",
-      "description": " Learn hard and soft skills \nWe share information and work on some projects together. \n Our team\nOur team consists of three members \n Our leader is a seasoned developer \nMarouan is the founder, has more than 10 years of experience. He is a full stack developer \n Powered by \nOmar front end developer with seven years of experience\n Powered by \nMehdi front end developer with two years of experience.  \nWe are a team join us \ndaily meeting on Telegram, Zoom and Google meet"
+      "title": "Honorary Members",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure error labore nisi earum atque quam, voluptatum doloribus aperiam dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure error labore nisi earum atque quam, voluptatum doloribus aperiam dignissimos."
     },
     {
-      "original": "/images/slide/edward.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci"
+      "original": "/images/slide/vincent.jpg",
+      "title": "Honorary Members",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure error labore nisi earum atque quam, voluptatum doloribus aperiam dignissimos."
     },
-    {
-      "original": "/images/slide/math.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing "
-    },
-    {
-      "original": "/images/slide/quantum-physics.jpg",
-      "description": "darkmatter"
-    },
-    {
-      "original": "/images/slide/solvay.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci asperiores neque"
-    },
-    {
-      "original": "/images/slide/zewail.jpg",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
-    },
+
     {
       "original": "/images/slide/jan.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!"
+      "title": "Daily meeting",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci consectetur adipisicing elit. Modi adipisci Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure error labore nisi earum atque quam, voluptatum doloribus aperiam dignissimos."
+    },
+
+    {
+      "original": "/images/slide/terry.jpg",
+      "title": "Check our events",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!  ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure error labore nisi earum atque quam, voluptatum doloribus aperiam dignissimos."
+    },
+    {
+      "original": "/images/slide/michal.jpg",
+      "title": "Check our events",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!  ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure error labore nisi earum atque quam, voluptatum doloribus aperiam dignissimos."
     },
     {
       "original": "/images/slide/linus.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!"
-    },
-    {
-      "original": "/images/slide/bamdad.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus!"
+      "title": "Check our events",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure error labore nisi earum atque quam, voluptatum doloribus aperiam dignissimos."
     }
   ],
 
@@ -259,16 +255,31 @@
     "plan": [
       { "title": "Regular", "price": 50, "back": "#ff0000, #990000, #800" },
       {
-        "title": "Regular",
+        "title": "Associate",
         "price": 100,
         "back": "#00ff00, #009900, #008000"
       },
       {
-        "title": "Regular",
+        "title": "Organizations",
         "price": 150,
         "back": "#ffff00, #999900, #808000"
       }
-    ]
+    ],
+    "category": [
+      {
+        "title": "1- Honorary Members",
+        "descreption": "The honorary members are distinguished Arab physicists living inside or outside the Arab world. They will contribute to the society activities and some of them will be selected to coordinate different divisions in society, like High Energy Physics, condensed matter physics, astroparticle physics, etc. List of honorary members can be extended up to a hundred members."
+      },
+      {
+        "title": "2- Individual Members",
+        "descreption": "The members will join through submitting the application form with their CV and the list of publications, and they will be communicated to the committee members and advisory members to select the proper candidates. There will be a membership fee to join the APS. These fees will be set by the general assembly in accordance with the internal bylaws."
+      },
+      {
+        "title": "3- Associate Members",
+        "descreption": "Associate members are senior physicists with high profile and no conditions on their citizenship."
+      }
+    ],
+    "register": "register Now"
   },
   "donate": {
     "title": "Donate",

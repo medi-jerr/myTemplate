@@ -1,5 +1,4 @@
 body {
-  height: 5000px;
   background-color: f8f8f8;
 }
 
@@ -46,11 +45,11 @@ h2 {
   font-size: 32px;
 }
 h3 {
-  font-size: 18px;
+  font-size: 19px;
 }
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5;
 }
 @media (max-width: 1024px) {
@@ -61,10 +60,10 @@ p {
     font-size: calc(32px * 0.9);
   }
   h3 {
-    font-size: calc(18px * 0.9);
+    font-size: calc(19px * 0.9);
   }
   p {
-    font-size: calc(16px * 0.9);
+    font-size: calc(17px * 0.9);
   }
 }
 @media (max-width: 768px) {
@@ -75,10 +74,10 @@ p {
     font-size: calc(32px * 0.8);
   }
   h3 {
-    font-size: calc(18px * 0.8);
+    font-size: calc(19px * 0.8);
   }
   p {
-    font-size: calc(16px * 0.8);
+    font-size: calc(17px * 0.8);
   }
 }
 @media (max-width: 320px) {
@@ -89,10 +88,10 @@ p {
     font-size: calc(32px * 0.65);
   }
   h3 {
-    font-size: calc(18px * 0.65);
+    font-size: calc(19px * 0.65);
   }
   p {
-    font-size: calc(16px * 0.65);
+    font-size: calc(17px * 0.65);
   }
 }
 
@@ -117,4 +116,20 @@ p {
   background: linear-gradient(to right, #222222, #18d26e) !important;
   padding: 10px 0px 10px;
   color: #f8f8f8;
+}
+
+// ****************Blogs***********//
+.blogsContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #ccc, #999);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .noItem {
+    text-align: center;
+    span {
+      color: #18d26e;
+    }
+  }
 }

@@ -4,21 +4,8 @@ import { Page, Title, Paragraph, Arrow } from "./style";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { NextArrow, PrevArrow } from "./SliderArrow";
 
-function NextArrow({ onClick }) {
-  return (
-    <Arrow onClick={onClick} dir="next">
-      <IoIosArrowForward />
-    </Arrow>
-  );
-}
-function PrevArrow({ onClick }) {
-  return (
-    <Arrow onClick={onClick} dir="prev">
-      <IoIosArrowBack />
-    </Arrow>
-  );
-}
 function TheSlider({ data }) {
   const settings = {
     dots: true,
