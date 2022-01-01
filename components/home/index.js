@@ -14,11 +14,10 @@ function HomePage() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
-  console.log(app.slider);
   return (
     <Main id="home">
       <Slider {...settings}>
@@ -28,7 +27,6 @@ function HomePage() {
               <div className="content">
                 <h1>{it.title}</h1>
                 <p>{it.description}</p>
-
                 <ButtonOne className="register">
                   <LinkOt href="/blogs">Blogs</LinkOt>
                 </ButtonOne>

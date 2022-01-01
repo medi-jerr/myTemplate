@@ -30,12 +30,15 @@ function Events() {
               />
               <div className="icons">
                 <p onClick={() => likedEvent(i)}>
-                  <BsHeartFill size="15" color={id.includes(i) && "#18d26e"} />
+                  <BsHeartFill
+                    size="15"
+                    color={id.includes(i) ? "#18d26e" : ""}
+                  />
                 </p>
                 <p onClick={() => joinEvent(i)}>
                   <BsBookmarkCheckFill
                     size="15"
-                    color={join.includes(i) && "#18d26e"}
+                    color={join.includes(i) ? "#18d26e" : ""}
                   />
                 </p>
               </div>

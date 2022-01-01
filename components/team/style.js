@@ -75,7 +75,7 @@ export const Img = styled(Image)`
   border-radius: 50%;
   cursor: pointer;
 `;
-export const Name = styled.p`
+export const Name = styled.div`
   width: 210px;
   padding: 0 0px;
   border-radius: 20px;

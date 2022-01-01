@@ -94,7 +94,6 @@ export const Category = styled.div`
   width: 80%;
   margin: 0 auto;
   color: #222;
-
   p {
     text-indent: 20px;
   }
@@ -104,13 +103,7 @@ export const Category = styled.div`
   .section {
     width: 90%;
     margin-bottom: 20px;
-    &:nth-child(even) {
-      margin-left: auto;
-      h3 {
-        margin-left: auto;
-        width: fit-content;
-        margin-right: 20px;
-      }
+    
     }
   }
 `;
